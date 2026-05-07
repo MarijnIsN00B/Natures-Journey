@@ -1,0 +1,45 @@
+#Whether immersives on anvils and smithing tables should be allowed
+anvil_immersion = true
+#Whether immersives on brewing stands should be allowed
+brewing_immersion = true
+#Whether immersives on all types of chests should be allowed. Unless users enable right_click_chest, this is VR only.
+chest_immersion = true
+#Whether immersives on crafting tables should be allowed
+crafting_immersion = true
+#Whether immersives on furnaces should be allowed
+furnace_immersion = true
+#Whether immersives on jukeboxes should be allowed (VR only)
+jukebox_immersion = true
+#Allow VR users to grab items at a distance.
+ranged_grab = true
+#Whether VR users can physically push buttons
+button_immersion = true
+#Whether immersives on Enchanting Tables should be allowed
+enchant_table_immersion = true
+#Whether VR users can hold items above a campfire to cook them
+campfire_immersion = true
+#Whether VR users can physically toggle levers
+lever_immersion = true
+#Allow VR players to use a bag to manage their inventory
+bag_inventory = true
+#Whether VR users can adjust the delay of repeaters using their hands
+repeater_immersion = true
+#Color for the bag as a base-10 RGB number.
+#Range: 0 ~ 16777215
+bag_color = 11901820
+#Puts the bag on the other side of your arm. Set to true if you're left-handed.
+left_handed_bag = false
+#Allows for right-clicking chests to use their immersive. Works outside of VR!
+right_click_chest = false
+#Makes the furnace immersive more centered instead of similar to the vanilla GUI
+center_furnace = false
+#Makes the brewing stand more centered instead of similar to the vanilla GUI
+center_brewing = false
+#Use lower-detailed bag
+low_detail_bag = false
+#Whether to show a particle for where to place items
+show_placement_guide = true
+#Integer representation for the mode to use when placing items using ImmersiveMC
+#Range: 0 ~ 3
+placement_mode = 0
+

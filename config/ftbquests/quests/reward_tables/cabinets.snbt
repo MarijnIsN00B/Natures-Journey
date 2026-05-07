@@ -1,0 +1,16 @@
+{
+	id: "2F1968DA09ACAF1E"
+	order_index: 7
+	title: "Cabinets"
+	loot_size: 1
+	rewards: [
+		{ item: "farmersdelight:oak_pantry", count: 16 }
+		{ item: "farmersdelight:spruce_pantry", count: 16 }
+		{ item: "farmersdelight:birch_pantry", count: 16 }
+		{ item: "farmersdelight:jungle_pantry", count: 16 }
+		{ item: "farmersdelight:acacia_pantry", count: 16 }
+		{ item: "farmersdelight:dark_oak_pantry", count: 16 }
+		{ item: "farmersdelight:crimson_pantry", count: 16 }
+		{ item: "farmersdelight:warped_pantry", count: 16 }
+	]
+}

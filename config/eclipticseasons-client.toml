@@ -1,0 +1,43 @@
+
+[GUI]
+	#The position X of Player Temperature UI
+	#Range: > -2147483648
+	PlayerTemperatureX = 10
+	#The position Y of Player Temperature UI
+	#Range: > -2147483648
+	PlayerTemperatureY = 40
+	#Info used for development.
+	DebugInfo = false
+
+[Renderer]
+	#Force to update chunk rendering.
+	ForceChunkRenderUpdate = true
+	#Force to update chunk rendering.
+	useVanillaCheck = false
+	#If snow falls during cold weather, it will gradually cover all solid blocks and grass.
+	SnowyWinter = true
+	#When the block is updated, the snow cover will not refresh immediately, but will be updated after a delay. Please note that this will consume more performance..
+	RealisticSnowyChange = true
+	#Occasionally a thicker layer of snow will cover the flowers and grass, especially.
+	DeeperSnow = false
+	#Blocks below fences and bamboo will also accumulate snow.
+	UnderSnow = false
+	#Snow will not overlay the block has block light.
+	NotSnowOverlayGlowingBlock = true
+	#Snow will not appear in overly bright areas, here define restriction levels.
+	NotSnowyNearGlowingBlock = true
+	#Snow will not appear in overly bright areas.
+	#Range: 1 ~ 15
+	NotSnowyNearGlowingBlockLevel = 10
+	#Seasonal Particle.
+	Particle = true
+	#Snow Line Height.
+	#Range: > -2147483648
+	SnowLineHeight = 111
+	#Snow Line Height.
+	SnowLineHeightBiome = [["COLD", 95], ["HOT", 143]]
+
+[Sound]
+	#Seasonal Ambient Sound.
+	Sound = true
+

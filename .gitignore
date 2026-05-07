@@ -1,0 +1,34 @@
+# Ignore runtime stuff
+.replay_cache/
+coremods/
+crash-reports/
+dumps/
+lightspeed-cache/
+local/
+logs/
+mod_data/
+modernfix/
+mods/.index
+replay_recordings/
+saves/
+screenshots/
+server-resource-packs/
+shaderpacks/
+temp/
+texturepacks/
+trees/
+emi.json
+fabricloader.log
+options.txt
+servers.dat
+servers.dat_old
+supportercache.json
+usernamecache.json
+usercache.json
+
+# Ignore launcher-specific files
+*.log
+
+# Ignore large unnecessary files
+*.zip
+*.jar.tmp

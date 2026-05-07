@@ -1,0 +1,53 @@
+{
+	id: "79487F357391237A"
+	order_index: 6
+	title: "Knives"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "farmersdelight:flint_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "farmersdelight:iron_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "farmersdelight:diamond_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "farmersdelight:netherite_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "farmersdelight:golden_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+}

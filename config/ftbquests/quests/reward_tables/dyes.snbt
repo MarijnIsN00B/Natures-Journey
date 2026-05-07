@@ -1,0 +1,24 @@
+{
+	id: "623D705B2816CEAF"
+	order_index: 8
+	title: "Dyes"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:red_dye", count: 8 }
+		{ item: "minecraft:orange_dye", count: 8 }
+		{ item: "minecraft:yellow_dye", count: 8 }
+		{ item: "minecraft:lime_dye", count: 8 }
+		{ item: "minecraft:green_dye", count: 8 }
+		{ item: "minecraft:cyan_dye", count: 8 }
+		{ item: "minecraft:light_blue_dye", count: 8 }
+		{ item: "minecraft:blue_dye", count: 8 }
+		{ item: "minecraft:purple_dye", count: 8 }
+		{ item: "minecraft:magenta_dye", count: 8 }
+		{ item: "minecraft:pink_dye", count: 8 }
+		{ item: "minecraft:brown_dye", count: 8 }
+		{ item: "minecraft:black_dye", count: 8 }
+		{ item: "minecraft:gray_dye", count: 8 }
+		{ item: "minecraft:light_gray_dye", count: 8 }
+		{ item: "minecraft:white_dye", count: 8 }
+	]
+}

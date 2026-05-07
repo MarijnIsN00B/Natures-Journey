@@ -1,0 +1,14 @@
+{
+	id: "62388D12E6E9F8D0"
+	order_index: 0
+	title: "Seeds"
+	loot_size: 4
+	rewards: [
+		{ item: "minecraft:wheat_seeds" }
+		{ item: "minecraft:pumpkin_seeds" }
+		{ item: "minecraft:melon_seeds" }
+		{ item: "minecraft:beetroot_seeds" }
+		{ item: "farmersdelight:cabbage_seeds" }
+		{ item: "farmersdelight:tomato_seeds" }
+	]
+}

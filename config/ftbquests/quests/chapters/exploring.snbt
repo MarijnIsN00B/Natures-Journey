@@ -1,0 +1,1723 @@
+{
+	id: "285F22EDC995A513"
+	group: ""
+	order_index: 1
+	filename: "exploring"
+	title: "Exploring"
+	icon: {
+		id: "naturescompass:naturescompass"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The End?"
+			icon: "minecraft:end_stone"
+			x: 0.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "Get to The End"
+			dependencies: [
+				"12E037F4904FE986"
+				"5CE89F4B470461F4"
+				"40CE1A438E07F12F"
+				"5E66980F7B2242B9"
+				"4E6C2F69B472EE38"
+				"3FD76B3BFDDCA4CD"
+				"17A527AA352CE84B"
+				"07721A226C00D76A"
+				"1557B7B3ED31ED7D"
+				"61B773E685977F90"
+				"1CFF85E5609EE47E"
+				"74CB1994C195507C"
+			]
+			size: 1.5d
+			id: "484152FC4023D244"
+			tasks: [{
+				id: "2B277D2AE9B899AF"
+				type: "advancement"
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2B81BBD4626BCEA9"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_slow_falling"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "1C3B830C483E9F72"
+					type: "item"
+					item: "minecraft:golden_apple"
+					count: 3
+				}
+				{
+					id: "5034D32249E5C977"
+					type: "item"
+					item: {
+						id: "minecraft:tipped_arrow"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_harming"
+						}
+					}
+					count: 64
+				}
+			]
+		}
+		{
+			title: "Fallen Sorcerer"
+			x: 0.0d
+			y: -2.25d
+			subtitle: "Get the Magical Eye"
+			dependencies: ["687286D594FA94DE"]
+			id: "17A527AA352CE84B"
+			tasks: [{
+				id: "7997E3D28F694AE7"
+				type: "item"
+				item: {
+					id: "endrem:magical_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "44153C74CCC47697"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Stare Into Dispair"
+			x: 1.0d
+			y: 2.0d
+			subtitle: "Get the Nether Eye"
+			dependencies: ["6ABF4591189FDE84"]
+			id: "07721A226C00D76A"
+			tasks: [{
+				id: "383C8F8B0393163B"
+				type: "item"
+				item: {
+					id: "endrem:nether_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0E6196702F303AB2"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:fire_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "4FACDF5DFC65BC75"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Wither You Want It Or Not"
+			x: 0.0d
+			y: 2.25d
+			subtitle: "Get the Wither Eye"
+			dependencies: ["14E744250D192BA3"]
+			id: "1CFF85E5609EE47E"
+			tasks: [{
+				id: "484C8005774C0251"
+				type: "item"
+				item: {
+					id: "endrem:wither_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3CE7ED2F853EC6DB"
+				type: "item"
+				item: {
+					id: "quark:ancient_tome"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 4s
+							id: "minecraft:protection"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Who's Guarding The Temple Now?"
+			x: -2.0d
+			y: -1.0d
+			subtitle: "Get the Guardian Eye"
+			dependencies: ["605B02AC258979A1"]
+			id: "4E6C2F69B472EE38"
+			tasks: [{
+				id: "5955D7E2A46531EA"
+				type: "item"
+				item: {
+					id: "endrem:guardian_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "683B63BE0CFD6207"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Fortune Seeker"
+			x: 2.0d
+			y: -1.0d
+			subtitle: "Get the Old Eye"
+			dependencies: ["5626590B399F8C93"]
+			id: "1557B7B3ED31ED7D"
+			tasks: [{
+				id: "1CEF83A37CF16DDC"
+				type: "item"
+				item: {
+					id: "endrem:old_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "76A725F3CBCFAC37"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Welcome To The Jungle"
+			x: 2.25d
+			y: 0.0d
+			subtitle: "Get the Rogue Eye"
+			dependencies: ["27CAFB987A6F0D89"]
+			id: "61B773E685977F90"
+			tasks: [{
+				id: "48896F2909699851"
+				type: "item"
+				item: {
+					id: "endrem:rogue_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "25FA5B3C738D3667"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "A Nice-y Look"
+			x: -2.0d
+			y: 1.0d
+			shape: "circle"
+			subtitle: "Get the Cold Eye"
+			dependencies: ["715D79A6DEBF76E9"]
+			id: "5CE89F4B470461F4"
+			tasks: [{
+				id: "6A76F3CC856B0C16"
+				type: "item"
+				item: {
+					id: "endrem:cold_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "01D12F76534BA5B0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Cover Me In Emeralds"
+			x: 1.0d
+			y: -2.0d
+			subtitle: "Get the Corrupted Eye"
+			dependencies: ["0A0FE3A38685EE14"]
+			id: "40CE1A438E07F12F"
+			tasks: [{
+				id: "406B36413053533A"
+				type: "item"
+				item: {
+					id: "endrem:corrupted_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "62D8934BC16857C1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Arghh, Where be Me Ship?"
+			x: -2.25d
+			y: 0.0d
+			subtitle: "Get the Black Eye"
+			dependencies: ["1CC4BF1D48802951"]
+			id: "12E037F4904FE986"
+			tasks: [{
+				id: "4EC7C82DCDC0D93F"
+				type: "item"
+				item: {
+					id: "endrem:black_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "50928C1E9AD2FE61"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Need A Map?"
+			x: -1.0d
+			y: -2.0d
+			subtitle: "Get the Lost Eye"
+			dependencies: ["53C42E9ABD056AA4"]
+			id: "3FD76B3BFDDCA4CD"
+			tasks: [{
+				id: "4654D9B80299FAC7"
+				type: "item"
+				item: {
+					id: "endrem:lost_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7E1CA7032C2CA7DC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7A2A425678208706"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Crystal Clear"
+			x: -1.0d
+			y: 2.0d
+			subtitle: "Get the Crystal Eye"
+			dependencies: ["556F5A1AA93C9655"]
+			id: "5E66980F7B2242B9"
+			tasks: [{
+				id: "3A83814A3C1CF653"
+				type: "item"
+				item: {
+					id: "endrem:end_crystal_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1D28F802FBE55616"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Trick-Or-Treat?"
+			x: 2.0d
+			y: 1.0d
+			subtitle: "Get the Witch Eye"
+			dependencies: ["3C277E94C4C6E657"]
+			id: "74CB1994C195507C"
+			tasks: [{
+				id: "45ECB2010F0973B4"
+				type: "item"
+				item: {
+					id: "endrem:witch_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "60583BD5FF649D8D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Lost History"
+			x: 3.5d
+			y: -1.5d
+			subtitle: "Find a desert pyramid"
+			id: "5626590B399F8C93"
+			tasks: [{
+				id: "3DC7F49B7669BDE3"
+				type: "structure"
+				title: "Find a Desert Pyramide"
+				icon: "minecraft:chiseled_sandstone"
+				structure: "minecraft:desert_pyramid"
+			}]
+			rewards: [
+				{
+					id: "4B18C9D4750D91B7"
+					type: "choice"
+					table_id: 3312448352567086079L
+				}
+				{
+					id: "493158FEAA564DF0"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "survive:long_heat_resistance"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "This Is Fine"
+			x: 1.5d
+			y: 3.5d
+			subtitle: "Find a Nether Fortress"
+			dependencies: ["00F558DCCF9F1A82"]
+			id: "6ABF4591189FDE84"
+			tasks: [{
+				id: "0D8337AA067D7063"
+				type: "structure"
+				title: "Find a Nether Fortress"
+				icon: "minecraft:nether_bricks"
+				structure: "minecraft:fortress"
+			}]
+			rewards: [{
+				id: "67041035D3DC9404"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+			}]
+		}
+		{
+			title: "Don't Get Cold Feet"
+			x: -3.5d
+			y: 1.5d
+			subtitle: "Find an igloo"
+			dependencies: ["793F046D2C1DC404"]
+			id: "715D79A6DEBF76E9"
+			tasks: [{
+				id: "63B30299C3943AB4"
+				type: "structure"
+				title: "Find an igloo"
+				icon: "minecraft:snow_block"
+				structure: "minecraft:igloo"
+			}]
+			rewards: [{
+				id: "7CDAAB7B1DBB76DF"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "survive:long_cold_resistance"
+					}
+				}
+			}]
+		}
+		{
+			title: "An Ancient Temple"
+			x: 4.0d
+			y: 0.0d
+			id: "27CAFB987A6F0D89"
+			tasks: [{
+				id: "6ED46D14DA26CF6E"
+				type: "structure"
+				icon: "minecraft:mossy_cobblestone"
+				structure: "minecraft:jungle_pyramid"
+			}]
+			rewards: [{
+				id: "2A6A4DBE82036699"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Coarse, Rough and Irritating"
+			x: -4.0d
+			y: 0.0d
+			subtitle: "Find a buried treasure chest"
+			dependencies: ["5EF0092E2A7355BA"]
+			id: "1CC4BF1D48802951"
+			tasks: [{
+				id: "092CF3D591F9E4D3"
+				type: "structure"
+				title: "Find Buried Treasure"
+				icon: "minecraft:sand"
+				structure: "minecraft:buried_treasure"
+			}]
+			rewards: [{
+				id: "0E5D122A05E0657A"
+				type: "item"
+				item: "minecraft:nautilus_shell"
+				count: 4
+			}]
+		}
+		{
+			title: "An Ominous Tower"
+			x: 1.5d
+			y: -3.5d
+			subtitle: "Find a pillager outpost"
+			id: "0A0FE3A38685EE14"
+			tasks: [{
+				id: "686E954700D0AD92"
+				type: "structure"
+				title: "Find a pillager outpost"
+				icon: "minecraft:dark_oak_planks"
+				structure: "minecraft:pillager_outpost"
+			}]
+			rewards: [{
+				id: "1328B9B74BA89516"
+				type: "item"
+				title: "You know what to do..."
+				item: {
+					id: "minecraft:flint_and_steel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Afraid To Get Wet?"
+			x: -3.5d
+			y: -1.5d
+			subtitle: "Find an ocean monument"
+			dependencies: ["3CCFA5F43F2392A5"]
+			id: "605B02AC258979A1"
+			tasks: [{
+				id: "77937553C7F70B91"
+				type: "structure"
+				title: "Find an ocean monument"
+				icon: "minecraft:prismarine_bricks"
+				structure: "minecraft:monument"
+			}]
+			rewards: [
+				{
+					id: "7CA0CA0A9EF8BBCF"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_water_breathing"
+						}
+					}
+				}
+				{
+					id: "7615B9E92DD49420"
+					type: "item"
+					item: "minecraft:sponge"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Withering Heights"
+			x: 0.0d
+			y: 4.0d
+			subtitle: "Summon the Wither"
+			dependencies: ["00F558DCCF9F1A82"]
+			id: "14E744250D192BA3"
+			tasks: [{
+				id: "4DA248AF1583FE98"
+				type: "advancement"
+				advancement: "minecraft:nether/summon_wither"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "20080C701AFEBCBB"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+				}
+				{
+					id: "47F18A2FA7F80B9C"
+					type: "item"
+					item: "minecraft:milk_bucket"
+				}
+			]
+		}
+		{
+			title: "Ah, That's Hot"
+			x: 0.0d
+			y: 5.5d
+			subtitle: "Enter the Nether"
+			dependencies: ["561279F50559029E"]
+			id: "00F558DCCF9F1A82"
+			tasks: [{
+				id: "256AACE3828346C2"
+				type: "dimension"
+				title: "Enter the Nether"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [
+				{
+					id: "06EC128AB45AE16B"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:fire_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "0CC0BBBCA6682AF2"
+					type: "item"
+					item: "survive:ice_cube"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "A Fragmented History"
+			x: -1.5d
+			y: 3.5d
+			subtitle: "Find and mine some end crystal ore"
+			dependencies: ["00F558DCCF9F1A82"]
+			id: "556F5A1AA93C9655"
+			tasks: [{
+				id: "179ECD1C594FB50D"
+				type: "questsadditions:break"
+				icon: "endrem:end_crystal_ore"
+				block_type: 0
+				block: "endrem:end_crystal_ore"
+				value: 1L
+				checkItem: false
+			}]
+			rewards: [
+				{
+					id: "735AE460E8CF474C"
+					type: "item"
+					item: "minecraft:ender_eye"
+					count: 4
+				}
+				{
+					id: "4952AA597A4A162A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Diggy Diggy Hole"
+			x: -1.5d
+			y: -3.5d
+			subtitle: "Find an abandoned mineshaft"
+			id: "53C42E9ABD056AA4"
+			tasks: [{
+				id: "72D42493EBDD129C"
+				type: "structure"
+				title: "Find an abandoned mineshaft"
+				icon: "minecraft:minecart"
+				structure: "bettermineshafts:mineshaft"
+			}]
+			rewards: [
+				{
+					id: "3D885C6ECDCC751B"
+					type: "item"
+					item: {
+						id: "minecraft:iron_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5D752DFA076C4282"
+					type: "item"
+					item: "minecraft:torch"
+					count: 64
+				}
+			]
+		}
+		{
+			title: "Find Your Way"
+			x: 8.0d
+			y: 0.0d
+			subtitle: "Craft a nature's compass"
+			id: "0CF8B155A6B27D30"
+			tasks: [{
+				id: "45C7124165EAE240"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "76F9A677C045B65C"
+				type: "item"
+				item: "minecraft:cooked_mutton"
+				count: 16
+			}]
+		}
+		{
+			title: "On the High Seas"
+			icon: "minecraft:oak_boat"
+			x: -5.0d
+			y: -1.5d
+			subtitle: "Craft a boat"
+			id: "3CCFA5F43F2392A5"
+			tasks: [{
+				id: "2C965780283101F2"
+				type: "item"
+				title: "Any Boat"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:boats"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5F105CC72F22A9F4"
+					type: "item"
+					item: "minecraft:barrel"
+					count: 8
+				}
+				{
+					id: "407FE6D5D6920CC7"
+					type: "item"
+					item: {
+						id: "minecraft:fishing_rod"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Which One? Good For Her"
+			x: 3.5d
+			y: 1.5d
+			subtitle: "Go to a swamp to find a witch hut"
+			id: "3C277E94C4C6E657"
+			tasks: [{
+				id: "305241B9591E4374"
+				type: "structure"
+				title: "Find a Witch Hut"
+				icon: "mcwbyg:witch_hazel_bridge_pier"
+				structure: "valhelsia_structures:witch_hut"
+			}]
+			rewards: [{
+				id: "2E50B073C4C52191"
+				type: "item"
+				item: "minecraft:milk_bucket"
+			}]
+		}
+		{
+			title: "This Must've Cost a Fortune!"
+			x: 0.0d
+			y: -4.0d
+			subtitle: "Find a woodland mansion"
+			id: "687286D594FA94DE"
+			tasks: [{
+				id: "1A0F9D2B1BB01ACD"
+				type: "structure"
+				title: "Find a Woodland Mansion"
+				icon: "minecraft:dark_oak_log"
+				structure: "minecraft:mansion"
+			}]
+			rewards: [
+				{
+					id: "32959AB5A3A9B06F"
+					type: "item"
+					item: {
+						id: "minecraft:shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3340023F962FC4CA"
+					type: "item"
+					item: "minecraft:golden_apple"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Titanic Moment"
+			x: -6.0d
+			y: 0.0d
+			subtitle: "Find a shipwreck"
+			id: "5EF0092E2A7355BA"
+			tasks: [{
+				id: "3E6D28E4CD6CCB10"
+				type: "structure"
+				title: "Find a Shipwreck"
+				icon: "minecraft:spruce_stairs"
+				structure: "minecraft:shipwreck"
+			}]
+			rewards: [{
+				id: "51B9706B2EBAA19F"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_water_breathing"
+					}
+				}
+			}]
+		}
+		{
+			title: "Nice And Toasty"
+			icon: {
+				id: "survive:wool_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -5.0d
+			y: 1.5d
+			subtitle: "Make some wool armour to keep yourself warm"
+			id: "793F046D2C1DC404"
+			tasks: [
+				{
+					id: "37C24630E5538B74"
+					type: "item"
+					item: {
+						id: "survive:wool_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "695EE7D331E66EEA"
+					type: "item"
+					item: {
+						id: "survive:wool_jacket"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "123BCF0C580EE14C"
+					type: "item"
+					item: {
+						id: "survive:wool_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7ED797914C6E1E9B"
+					type: "item"
+					item: {
+						id: "survive:wool_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4DF1A748301771C8"
+					type: "item"
+					item: {
+						id: "notreepunching:fire_starter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "04567495FE4D0558"
+					type: "item"
+					item: "minecraft:spruce_log"
+					count: 16
+				}
+				{
+					id: "58DAAD1EED5C018B"
+					type: "item"
+					item: "minecraft:stick"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 0.0d
+			subtitle: "Craft a strange bed using some hope and some despair"
+			dependencies: ["3B34388B14B5C449"]
+			id: "674CC61F0E877BC3"
+			tasks: [{
+				id: "0BCB0AA5BE223FD0"
+				type: "item"
+				item: "good_nights_sleep:strange_bed"
+			}]
+			rewards: [{
+				id: "006D5880B43A4ED7"
+				type: "item"
+				item: "farmersdelight:hot_cocoa"
+			}]
+		}
+		{
+			title: "A Nightmare on Craft Street"
+			x: -11.0d
+			y: 2.0d
+			subtitle: "Sleep in a strange bed and have a bad dream"
+			dependencies: ["674CC61F0E877BC3"]
+			id: "0490176E1633C673"
+			tasks: [{
+				id: "2BB281582C0284B5"
+				type: "dimension"
+				title: "Have a Nightmare"
+				icon: "good_nights_sleep:necrotic_extract"
+				dimension: "good_nights_sleep:nightmare"
+			}]
+			rewards: [{
+				id: "753DB8AB4DE3B613"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			title: "Rainbows and Unicorns!"
+			icon: "good_nights_sleep:candy"
+			x: -11.0d
+			y: -2.0d
+			subtitle: "Sleep in a strange bed and have a good dream"
+			dependencies: ["674CC61F0E877BC3"]
+			id: "3FACF83444BBF61C"
+			tasks: [{
+				id: "20D25A106CB1C27A"
+				type: "dimension"
+				title: "Have a Good Dream"
+				icon: "good_nights_sleep:positite_gem"
+				dimension: "good_nights_sleep:good_dream"
+			}]
+			rewards: [{
+				id: "13C23E937599C286"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			title: "Dreamy Mushrooms"
+			icon: "good_nights_sleep:hope_mushroom"
+			x: -7.5d
+			y: 0.0d
+			subtitle: "Find or craft the hope and despair mushrooms"
+			id: "3B34388B14B5C449"
+			tasks: [
+				{
+					id: "799A119784A5C900"
+					type: "item"
+					item: "good_nights_sleep:hope_mushroom"
+				}
+				{
+					id: "3C52FFBB0B039A68"
+					type: "item"
+					item: "good_nights_sleep:despair_mushroom"
+				}
+			]
+			rewards: [
+				{
+					id: "1C9C6A8CBCD5F084"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 6
+				}
+				{
+					id: "237034B155668796"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: 0.5d
+			subtitle: "Kill a tormenter"
+			dependencies: ["0490176E1633C673"]
+			id: "21698927F4854AF6"
+			tasks: [{
+				id: "41644A862413D8AA"
+				type: "advancement"
+				title: "Face Your Fears"
+				advancement: "good_nights_sleep:nightmare/kill_tormenter"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1D28F690B899C065"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "267F9136B0317B61"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: 3.5d
+			shape: "octagon"
+			subtitle: "Kill Herobrine"
+			dependencies: ["0490176E1633C673"]
+			size: 1.5d
+			secret: true
+			id: "152A91E5A136E294"
+			tasks: [{
+				id: "4AE0F6E0F1193C0C"
+				type: "advancement"
+				title: "Removed Herobrine"
+				advancement: "good_nights_sleep:nightmare/kill_herobrine"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "206BCDDF3890767C"
+					type: "item"
+					item: "good_nights_sleep:negatite_gem"
+					count: 10
+				}
+				{
+					id: "7FE6579E4C6BCA41"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6FEF7104ADA276C1"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 2.0d
+			subtitle: "Obtain a zitrite ingot"
+			dependencies: ["0490176E1633C673"]
+			id: "2B7330C610135223"
+			tasks: [{
+				id: "54521D60E7CB3007"
+				type: "advancement"
+				title: "Black Metal"
+				advancement: "good_nights_sleep:nightmare/obtain_zitrite_ingot"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2D425C9DF81297AB"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "67572EB728A8E4A9"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "Nightmare Fuel"
+			x: -14.5d
+			y: 3.5d
+			subtitle: "Obtain a negative gem"
+			dependencies: ["2B7330C610135223"]
+			id: "230E9AA516819900"
+			tasks: [{
+				id: "38F5B76B542BD0A8"
+				type: "advancement"
+				advancement: "good_nights_sleep:nightmare/obtain_negatite"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2BE378CB6E741181"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_regeneration"
+					}
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: 0.5d
+			dependencies: ["2B7330C610135223"]
+			id: "1DB2C509C29ABB90"
+			tasks: [{
+				id: "1ECEC1E545A180F9"
+				type: "advancement"
+				title: "Really Edgy"
+				advancement: "good_nights_sleep:nightmare/obtain_zitrite_sword"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "4CB6686CCE9D8397"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+				{
+					id: "0560C3E99B1D1587"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_strength"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: -0.5d
+			subtitle: "Kill a baby creeper"
+			dependencies: ["3FACF83444BBF61C"]
+			secret: true
+			id: "404EC784CC9B503B"
+			tasks: [{
+				id: "11887D2B11778389"
+				type: "advancement"
+				title: "How Could You..."
+				advancement: "good_nights_sleep:dream/kill_baby_creeper"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "733F3BE4694CAC41"
+				type: "item"
+				item: {
+					id: "farmersdelight:iron_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Taste the Rainbow!"
+			x: -12.5d
+			y: -3.5d
+			subtitle: "Grow and eat rainbow berries!"
+			description: ["Find rainbow seeds by breaking grass in a good dream, then grow those seeds to get rainbow berries."]
+			dependencies: ["3FACF83444BBF61C"]
+			size: 1.5d
+			secret: true
+			id: "32067C5EE0021529"
+			tasks: [{
+				id: "67F25EC5D5BB6020"
+				type: "advancement"
+				advancement: "good_nights_sleep:dream/eat_rainbow_berries"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "639FBCC4BF8E35B6"
+				type: "item"
+				item: "good_nights_sleep:rainbow_seeds"
+				count: 16
+			}]
+		}
+		{
+			x: -11.0d
+			y: 0.0d
+			subtitle: "Tame a unicorn"
+			dependencies: ["3FACF83444BBF61C"]
+			size: 1.5d
+			secret: true
+			id: "3D99930C9F98C7B5"
+			tasks: [{
+				id: "1C4BAA691BE2D6E2"
+				type: "advancement"
+				title: "It's So Fluffy!"
+				advancement: "good_nights_sleep:dream/tame_unicorn"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2C9331E7BDC8B693"
+					type: "item"
+					item: "farmersdelight:horse_feed"
+				}
+				{
+					id: "2298CF4FB21B290A"
+					type: "item"
+					item: "minecraft:saddle"
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -2.0d
+			subtitle: "Obtain a rainbow ingot"
+			dependencies: ["3FACF83444BBF61C"]
+			id: "6126ECBD7BDB36EF"
+			tasks: [{
+				id: "5E462193DA780E3F"
+				type: "advancement"
+				title: "Prismatic!"
+				advancement: "good_nights_sleep:dream/obtain_rainbow_ingot"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "765622035AB6B1DC"
+					type: "item"
+					item: "minecraft:gold_block"
+				}
+				{
+					id: "366BE29371AFF85C"
+					type: "item"
+					item: "good_nights_sleep:rainbow_berries"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Positively Delightful!"
+			x: -14.5d
+			y: -3.5d
+			subtitle: "Obtain a positive gem"
+			dependencies: ["6126ECBD7BDB36EF"]
+			id: "13D19924F56051D4"
+			tasks: [{
+				id: "6F8CDC61A228A372"
+				type: "item"
+				item: "good_nights_sleep:positite_gem"
+			}]
+			rewards: [
+				{
+					id: "4A2ADAC2BE4D82F3"
+					type: "item"
+					item: "minecraft:saddle"
+				}
+				{
+					id: "27DB155B3624A423"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "The End of the Rainbow!"
+			x: -14.5d
+			y: -0.5d
+			subtitle: "Craft a pot of gold"
+			dependencies: ["6126ECBD7BDB36EF"]
+			id: "652FCA54A720E986"
+			tasks: [{
+				id: "572B5E409709BF2C"
+				type: "item"
+				item: "good_nights_sleep:pot_of_gold"
+			}]
+			rewards: [{
+				id: "50654A65674E2042"
+				type: "item"
+				item: "quark:golden_apple_crate"
+			}]
+		}
+		{
+			title: "Portal Transporting!"
+			x: -2.0d
+			y: 5.5d
+			subtitle: "Use a bucket on a dimensional rift to move the portal"
+			dependencies: ["561279F50559029E"]
+			id: "37F8E0DE01923BE8"
+			tasks: [{
+				id: "4029D0A111EFE1EC"
+				type: "item"
+				item: "betterportals:portal_fluid_bucket"
+			}]
+			rewards: [
+				{
+					id: "7AAC4A3A430F922E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "054BCAF211945F1A"
+					type: "item"
+					item: "survive:purified_water_bottle"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Wanderer"
+			x: 11.25d
+			y: -2.25d
+			subtitle: "Discover every Biomes 'o Plenty biome"
+			dependencies: ["6A18037CC645D996"]
+			size: 1.5d
+			id: "20ABC42E457909A7"
+			tasks: [{
+				id: "329A5323788B573D"
+				type: "advancement"
+				advancement: "biomesoplenty:biomesoplenty/all_biomes"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "4F9F3AB0C3309400"
+					type: "item"
+					item: {
+						id: "minecraft:elytra"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "180C98CABE858D96"
+					type: "item"
+					item: "minecraft:firework_rocket"
+					count: 128
+				}
+				{
+					id: "5B246FC3FA909F7E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "22567FCE0B2E80E8"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+			]
+		}
+		{
+			title: "Adventuring Time"
+			x: 8.75d
+			y: -2.25d
+			subtitle: "Discover every vanilla biome"
+			dependencies: ["6A18037CC645D996"]
+			size: 1.5d
+			id: "56CCFC76A1101218"
+			tasks: [{
+				id: "180058C1D262BF20"
+				type: "advancement"
+				advancement: "minecraft:adventure/adventuring_time"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "067AD2061A221305"
+					type: "item"
+					item: "minecraft:diamond_block"
+				}
+				{
+					id: "0A38F7749C21A54D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4BAA891AC8D01743"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+				}
+				{
+					id: "5EF7FE1FA82D313C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "A Journey Awaits You!"
+			x: 10.0d
+			y: 0.0d
+			id: "6A18037CC645D996"
+			tasks: [{
+				id: "30B26D6F42C6FD8B"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [
+				{
+					id: "0BDF1D69CED5FC9D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5FBBCC54F5290C47"
+					type: "item"
+					item: "farmersdelight:bacon_sandwich"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Iron Upgrade"
+			x: 11.5d
+			y: 0.0d
+			dependencies: ["6A18037CC645D996"]
+			id: "3EF95DC92F2C2569"
+			tasks: [{
+				id: "2239971FB4853FD0"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [{
+				id: "6E9C5A6DB8B27664"
+				type: "item"
+				item: "sophisticatedbackpacks:upgrade_base"
+				count: 4
+			}]
+		}
+		{
+			title: "Pretty Heavy"
+			x: 13.0d
+			y: 0.0d
+			dependencies: ["3EF95DC92F2C2569"]
+			id: "179465A859EB413E"
+			tasks: [{
+				id: "231073A06FACC5A1"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [{
+				id: "6D8A620A595BFFEF"
+				type: "item"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+			}]
+		}
+		{
+			title: "Most Expensive Backpack"
+			x: 14.5d
+			y: 0.0d
+			dependencies: ["179465A859EB413E"]
+			id: "6642D08827B417D6"
+			tasks: [{
+				id: "2118F1EF4453BA30"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+			rewards: [{
+				id: "7ED5485F743ED379"
+				type: "item"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+			}]
+		}
+		{
+			title: "Strongest Backpack Ever"
+			x: 16.0d
+			y: 0.0d
+			dependencies: ["6642D08827B417D6"]
+			id: "6ECE9CD1218869D1"
+			tasks: [{
+				id: "51095F1BDAA83F51"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [
+				{
+					id: "3AF67EDD58007203"
+					type: "item"
+					item: "minecraft:diamond_horse_armor"
+				}
+				{
+					id: "480C403481F0F066"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+				}
+				{
+					id: "7AD30C9C0F148D98"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "Easy Travel"
+			icon: "waystones:mossy_waystone"
+			x: 6.5d
+			y: 2.5d
+			subtitle: "Take or craft a waystone"
+			dependencies: ["22C075639DE08906"]
+			id: "5EDDDD07C025E56D"
+			tasks: [{
+				id: "3B9B09DBA4119938"
+				type: "item"
+				title: "Any waystone"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "waystones:waystones"
+					}
+				}
+			}]
+			rewards: [{
+				id: "74370A014E9D2330"
+				type: "item"
+				item: "minecraft:purple_dye"
+				count: 8
+			}]
+		}
+		{
+			title: "Get Home Anytime!"
+			x: 7.5d
+			y: 3.5d
+			subtitle: "Make a warp stone"
+			id: "22C075639DE08906"
+			tasks: [{
+				id: "32C6B0157305F694"
+				type: "item"
+				item: {
+					id: "waystones:warp_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7E23C4E1D7403B09"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "2 Way Travel"
+			x: 8.5d
+			y: 2.5d
+			subtitle: "Craft a sharestone"
+			dependencies: ["22C075639DE08906"]
+			id: "466B874B3813C8D9"
+			tasks: [{
+				id: "19A1F4D90BEE14A1"
+				type: "item"
+				item: "waystones:sharestone"
+			}]
+			rewards: [{
+				id: "31E94889EBF8635C"
+				type: "loot"
+				table_id: 7078937726113205935L
+			}]
+		}
+		{
+			title: "Teleporter Coming Up!"
+			x: 7.5d
+			y: 2.0d
+			subtitle: "Craft a warp plate"
+			dependencies: ["22C075639DE08906"]
+			id: "29561539EDE9A2D0"
+			tasks: [{
+				id: "04D21FF761B60413"
+				type: "item"
+				item: "waystones:warp_plate"
+			}]
+			rewards: [{
+				id: "7B83201E59E5FA46"
+				type: "item"
+				item: "waystones:warp_dust"
+				count: 16
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			dependencies: ["22C075639DE08906"]
+			id: "4D7C40A037650CDB"
+			tasks: [{
+				id: "178F83216B4F65B5"
+				type: "item"
+				item: "waystones:return_scroll"
+			}]
+			rewards: [{
+				id: "4DB6EA65915BF44C"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 3
+			}]
+		}
+		{
+			x: 8.5d
+			y: 4.5d
+			dependencies: ["22C075639DE08906"]
+			id: "0B3F216B1D6267DD"
+			tasks: [{
+				id: "572FCAD2E4087B96"
+				type: "item"
+				item: "waystones:bound_scroll"
+			}]
+			rewards: [{
+				id: "1511D4A625F22F4F"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 3
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.5d
+			subtitle: "Find a Reclaimer and activate it with 4 golden blocks"
+			dependencies: ["00F558DCCF9F1A82"]
+			id: "61BBDE8892947C81"
+			tasks: [{
+				id: "58F7C5CC49F4B3D5"
+				type: "observation"
+				title: "A Way Home"
+				icon: "betterportals:reclaimer"
+				timer: 0L
+				observe_type: 0
+				to_observe: "betterportals:reclaimer_block"
+			}]
+			rewards: [{
+				id: "517449EE4F9F35BE"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Shattered Spacetime"
+			icon: "minecraft:netherrack"
+			x: 0.0d
+			y: 7.5d
+			subtitle: "Find a Dimensional Rift deep underground"
+			id: "561279F50559029E"
+			tasks: [{
+				id: "178BFC4DD5B38C14"
+				type: "checkmark"
+				title: "Find a Dimensional Rift"
+			}]
+			rewards: [{
+				id: "5C7B1A52B9C3F182"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "survive:long_heat_resistance"
+					}
+				}
+			}]
+		}
+	]
+}

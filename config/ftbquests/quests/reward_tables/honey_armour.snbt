@@ -1,0 +1,44 @@
+{
+	id: "2DF82E39FF96CBFF"
+	order_index: 2
+	title: "Honey Armour"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "survive:stiffened_honey_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "survive:stiffened_honey_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "survive:stiffened_honey_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "survive:stiffened_honey_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+}

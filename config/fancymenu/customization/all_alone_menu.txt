@@ -1,0 +1,230 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = naturesjourney
+  action = setbackgroundpanorama
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -9
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-centered
+  x = 103
+  action = movebutton
+  y = 39
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 39
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 39
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -123
+  action = movebutton
+  y = 39
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -33
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 15
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 186
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 91c71732-3d08-4d3a-a070-465bbc3cc11d1704755912749
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 128
+  action = deep_customization_element:title_screen_branding
+  actionid = c342aeaa-7fd6-46ba-b870-1f592dd3d3aa1704755912756
+  y = 308
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 411
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = e917a8dd-7d1e-4112-b089-5ba5a107a4b21704755912756
+  y = 340
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 0f108be8-2042-4642-8c9b-fef73d9279ec1704755912756
+  y = 190
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 83bebae2-e69d-46fd-bcf8-355169eb27d51704755912756
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-centered
+  splash_color = #ffff00
+  hidden = true
+  x = -78
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = ec46617e-26af-4e6b-8022-b62d5dd783221704755912756
+  y = 49
+  height = 30
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/NJbg2YsNfe%btnaction_splitter_fm%
+  x = -100
+  width = 47
+  action = addbutton
+  actionid = 55b47407-5c71-4d64-9d8d-accd76a977041704815058507
+  y = 63
+  label = Discord
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.twitch.tv/marijnisn00b%btnaction_splitter_fm%
+  x = 53
+  width = 47
+  action = addbutton
+  actionid = 4eab8f45-28d0-4b37-80e6-233084b552e51704815085729
+  y = 63
+  label = Twitch
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.youtube.com/channel/UCD5_I0BQlPeRk15P5RCBfhQ%btnaction_splitter_fm%
+  x = 2
+  width = 48
+  action = addbutton
+  actionid = a01ce6d8-1991-4dc8-9e8b-8cc8a7a9f5001704815238383
+  y = 63
+  label = YouTube
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://ko-fi.com/marijnisn00b%btnaction_splitter_fm%
+  x = -50
+  width = 48
+  action = addbutton
+  actionid = e9ed57bf-3b49-4b15-ae03-c5233bbdb1001704815253332
+  y = 63
+  label = Donate
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://billing.kinetichosting.net/aff.php?aff=666%btnaction_splitter_fm%
+  x = 2
+  width = 98
+  action = addbutton
+  actionid = 8c7933b0-d35f-43e7-8a6c-efcc0fc533d31704815526307
+  y = 15
+  label = Host a Server
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/customguis/minecraft_title.png
+  orientation = mid-centered
+  x = -155
+  width = 310
+  action = addtexture
+  actionid = e971a390-4126-4e97-b4e8-8c5c6fd18d091705941778650
+  y = -153
+  height = 100
+}
+

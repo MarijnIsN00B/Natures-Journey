@@ -1,0 +1,366 @@
+{
+	id: "0FD40D367ABC4531"
+	group: ""
+	order_index: 0
+	filename: "test"
+	title: "Chapter 1: Starting Off"
+	icon: {
+		id: "notreepunching:flint_knife"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Shiny Rocks!"
+			x: -5.0d
+			y: -1.5d
+			subtitle: "Obtain some flint by digging through gravel"
+			dependencies: ["55C2053477FDFC6C"]
+			dependency_requirement: "one_started"
+			id: "23C74168EF0B2BE9"
+			tasks: [{
+				id: "7E4685A457B50B7C"
+				type: "item"
+				item: "minecraft:flint"
+			}]
+			rewards: [{
+				id: "229B5D87F7ED12E2"
+				type: "item"
+				item: "minecraft:stick"
+				count: 6
+			}]
+		}
+		{
+			title: "Knapit!"
+			x: -3.5d
+			y: -1.5d
+			subtitle: "Use a piece of flint on some exposed stone, to break it into small flint shards"
+			dependencies: ["23C74168EF0B2BE9"]
+			dependency_requirement: "one_started"
+			id: "4E206ED8240BEB36"
+			tasks: [{
+				id: "0D528B4AEB24BC2A"
+				type: "item"
+				item: "notreepunching:flint_shard"
+			}]
+			rewards: [
+				{
+					id: "615EF09B210849B7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "26BCBE3F11608D87"
+					type: "item"
+					item: "minecraft:carrot"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "And My Axe!"
+			x: 1.0d
+			y: -2.5d
+			subtitle: "Build your first tool capable of harvesting wood!"
+			dependencies: ["1BFB4257CA7D0771"]
+			id: "5CF97BA2D800E651"
+			tasks: [{
+				id: "71097048F8FFBDB5"
+				type: "item"
+				item: {
+					id: "notreepunching:flint_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5CF9777FDF4ABC67"
+				type: "item"
+				item: "survive:purified_water_bowl"
+				count: 3
+			}]
+		}
+		{
+			title: "My First Pickaxe"
+			x: 1.0d
+			y: -0.5d
+			subtitle: "Craft your first pickaxe from flint, plant fiber and sticks!"
+			dependencies: ["1BFB4257CA7D0771"]
+			id: "629FCD74F0CB072B"
+			tasks: [{
+				id: "1759D3530514BC6A"
+				type: "item"
+				item: {
+					id: "notreepunching:flint_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "325FFF11127B9B3E"
+				type: "item"
+				item: "minecraft:coal"
+				count: 8
+			}]
+		}
+		{
+			title: "Getting a Better Upgrade"
+			x: 2.5d
+			y: -2.5d
+			subtitle: "Craft a mattock, a hoe-axe-shovel-all-in-one-multitool!"
+			dependencies: ["21BBFB944987C4D1"]
+			id: "621C17B8D0383B74"
+			tasks: [{
+				id: "61A8914446291A4E"
+				type: "advancement"
+				advancement: "notreepunching:story/mattock"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0533194179C16A14"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 16
+			}]
+		}
+		{
+			title: "Macaroniwhatnow?"
+			x: -3.5d
+			y: -3.0d
+			subtitle: "Craft a macuahuitl"
+			dependencies: ["4E206ED8240BEB36"]
+			id: "0153F50135A62F9A"
+			tasks: [{
+				id: "114E79571C4C6FE4"
+				type: "item"
+				item: {
+					id: "notreepunching:macuahuitl"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5154875E11BFE6BE"
+				type: "xp"
+				xp: 30
+			}]
+		}
+		{
+			title: "No Tree Punching"
+			x: -6.5d
+			y: -1.5d
+			subtitle: "I tried punching a tree. It didn't work and now my fingers are covered in splinters..."
+			id: "55C2053477FDFC6C"
+			tasks: [{
+				id: "244CB02940CB902A"
+				type: "advancement"
+				title: "No Tree Punching"
+				icon: {
+					id: "notreepunching:flint_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "farmersdelight:main/root"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			subtitle: "Use a clay tool on a block of clay to create pottery of various kinds"
+			dependencies: ["58AADB115029F95D"]
+			id: "2D0FFB123AB54C80"
+			tasks: [{
+				id: "42DD1F356640AE52"
+				type: "advancement"
+				title: "You're a Potter, Harry"
+				advancement: "notreepunching:story/use_clay_tool"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "612835CB7F686F29"
+				type: "item"
+				item: "minecraft:spruce_log"
+				count: 16
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			subtitle: "Fire some pottery into useful devices!"
+			dependencies: [
+				"2D0FFB123AB54C80"
+				"44E4933E308FDD1E"
+			]
+			id: "347B5B63F3DB5C02"
+			tasks: [{
+				id: "1B440321582B31C3"
+				type: "advancement"
+				title: "Ceramics"
+				advancement: "notreepunching:story/fire_pottery"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "22D1D1E78CB347B9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4ED5F6894FCDA8AF"
+					type: "item"
+					item: "minecraft:coal"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			subtitle: "Craft a firestarter to warm yourself"
+			dependencies: ["1BFB4257CA7D0771"]
+			id: "44E4933E308FDD1E"
+			tasks: [{
+				id: "00DCDFD0F0EDEAA8"
+				type: "item"
+				item: {
+					id: "notreepunching:fire_starter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0F69D6B98071459D"
+					type: "item"
+					item: "minecraft:spruce_log"
+					count: 4
+				}
+				{
+					id: "690BBAA5AEBFFB0C"
+					type: "item"
+					item: "minecraft:stick"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "The Iron Age"
+			x: 2.5d
+			y: -0.5d
+			subtitle: "Smelt an iron ingot"
+			dependencies: ["629FCD74F0CB072B"]
+			id: "21BBFB944987C4D1"
+			tasks: [{
+				id: "1CB4A714A0C7D21D"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+			rewards: [{
+				id: "5EB8B1EB2890EAFF"
+				type: "item"
+				item: "farmersdelight:barbecue_stick"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			shape: "octagon"
+			subtitle: "Upgrade your pickaxe"
+			dependencies: ["21BBFB944987C4D1"]
+			size: 1.2d
+			id: "04D2367C0BDFFDB2"
+			tasks: [{
+				id: "29E3D4FA019D2001"
+				type: "advancement"
+				title: "Isn't It Iron Pick"
+				advancement: "minecraft:story/iron_tools"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "71063DD438A6D497"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 4
+				}
+				{
+					id: "4B2D38658A943B9F"
+					type: "item"
+					item: "minecraft:torch"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			subtitle: "Use a stick and flint to make a Flint Knife"
+			dependencies: ["4E206ED8240BEB36"]
+			id: "762005DF2F3BA434"
+			tasks: [{
+				id: "24BAABBB5C14341D"
+				type: "item"
+				item: {
+					id: "notreepunching:flint_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Such a Tool"
+			x: -3.5d
+			y: -4.5d
+			subtitle: "Craft a Clay Tool in your newly made Crafting Table"
+			id: "58AADB115029F95D"
+			tasks: [{
+				id: "25FC6FA6EDD55115"
+				type: "item"
+				item: {
+					id: "notreepunching:clay_tool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "615F9DAE7801D9CE"
+				type: "item"
+				item: "minecraft:clay_ball"
+				count: 16
+			}]
+		}
+		{
+			title: "Plant Based Tool Binding"
+			x: -0.5d
+			y: -1.5d
+			subtitle: "With a primitive knife, obtain plant fiber by cutting down grass, then use those fibers to make grass string"
+			dependencies: ["762005DF2F3BA434"]
+			id: "1BFB4257CA7D0771"
+			tasks: [{
+				id: "6EA66FB9A7F35383"
+				type: "item"
+				item: "notreepunching:plant_fiber"
+				count: 3L
+			}]
+		}
+	]
+}

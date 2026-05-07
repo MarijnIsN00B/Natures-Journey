@@ -1,0 +1,28 @@
+{
+	id: "39E28DF1BCDB29D1"
+	order_index: 5
+	title: "End Gear"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:tipped_arrow"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:strong_harming"
+				}
+			}
+			count: 64
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:long_slow_falling"
+				}
+			}
+			count: 3
+		}
+	]
+}

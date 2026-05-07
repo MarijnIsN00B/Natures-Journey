@@ -1,0 +1,5 @@
+
+[logbegone]
+	regex = ["Disconnecting VANILLA connection attempt", "Channels ", "Potentially Dangerous alternative prefix", "Object did not get ID it asked for", "Exception evaluating model definition", "Unable to bake model", "Couldn't parse loot table", "Parsing error loading recipe", "Unknown property 'north' on"]
+	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "Potentially Dangerous alternative prefix", "Object did not get ID it asked for", "Exception evaluating model definition", "Unable to bake model", "Couldn't parse loot table", "Parsing error loading recipe", "Unknown property 'north' on"]
+
