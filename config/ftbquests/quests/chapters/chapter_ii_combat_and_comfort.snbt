@@ -1,0 +1,1129 @@
+{
+	id: "3F323B68BA001948"
+	group: ""
+	order_index: 1
+	filename: "chapter_ii_combat_and_comfort"
+	title: "Chapter II: Combat and Comfort"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Take Aim"
+			x: -11.5d
+			y: 0.0d
+			subtitle: "Craft a bow"
+			id: "3D53D261594CFDEE"
+			tasks: [{
+				id: "0902CD71B9435473"
+				type: "item"
+				item: {
+					id: "minecraft:bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4759F47AE532A013"
+				type: "item"
+				item: "minecraft:arrow"
+				count: 16
+			}]
+		}
+		{
+			x: -8.5d
+			y: -1.5d
+			subtitle: "Kill a raid captain. Maybe consider staying away from villages for the time being..."
+			id: "5C415E2061B7A46E"
+			tasks: [{
+				id: "40C4E5634D379866"
+				type: "advancement"
+				title: "Voluntary Exile"
+				advancement: "minecraft:adventure/voluntary_exile"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0FA63EBB11BDD4ED"
+				type: "item"
+				item: "farmersdelight:barbecue_stick"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.5d
+			subtitle: "Successfully defend a village from a raid"
+			id: "7433DB3C02584422"
+			tasks: [{
+				id: "0D5AA15014B5CBD1"
+				type: "advancement"
+				title: "Hero of the Village"
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2940765B914B505B"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+				{
+					id: "46F2EF5EC13143AA"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: 1.5d
+			subtitle: "Kill a skeleton from at least 50 meters away"
+			id: "3D63B91AE48CE8D8"
+			tasks: [{
+				id: "5AF0D9C255881E98"
+				type: "advancement"
+				title: "Sniper Duel"
+				advancement: "minecraft:adventure/sniper_duel"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "4E9464CA7F65E952"
+					type: "item"
+					item: {
+						id: "minecraft:tipped_arrow"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:harming"
+						}
+					}
+					count: 16
+				}
+				{
+					id: "0A937FBD31DDF97F"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 6
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: -1.5d
+			subtitle: "Hit the bullseye of a target block from at least 30 meters away"
+			id: "7F2A31458DB29B05"
+			tasks: [{
+				id: "2C1EF354B132AE57"
+				type: "advancement"
+				title: "Bullseye"
+				advancement: "minecraft:adventure/bullseye"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0C7206BC0273A75E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "37644E27ABCF05ED"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: 0.0d
+			subtitle: "Give a pillager a taste of their own medicine"
+			id: "0E8C9B9CE3924EA6"
+			tasks: [{
+				id: "2758C2064FED888B"
+				type: "advancement"
+				title: "Who's the Pillager Now"
+				advancement: "minecraft:adventure/whos_the_pillager_now"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "61EE7E024EBF8502"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "534579D47F16FA62"
+					type: "item"
+					item: "minecraft:iron_block"
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -4.0d
+			shape: "octagon"
+			size: 2.0d
+			id: "1170573F3527F447"
+			tasks: [{
+				id: "3A4296945DC837E1"
+				type: "advancement"
+				title: "Monsters Hunted"
+				advancement: "minecraft:adventure/kill_all_mobs"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "6DE795068B93C370"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "45F06183A3C648C5"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+				{
+					id: "713A09FD7FE70180"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+				}
+			]
+		}
+		{
+			title: "Ametrine Time"
+			icon: {
+				id: "byg:ametrine_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -5.5d
+			y: 0.0d
+			subtitle: "Get a fill set of ametrine armour"
+			id: "747F343A8FAB56EA"
+			tasks: [
+				{
+					id: "468C15A3016B369D"
+					type: "item"
+					item: {
+						id: "byg:ametrine_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "012016408ADE643E"
+					type: "item"
+					item: {
+						id: "byg:ametrine_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6261A8023299E88B"
+					type: "item"
+					item: {
+						id: "byg:ametrine_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "079EDBC47CF75F2E"
+					type: "item"
+					item: {
+						id: "byg:ametrine_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "23B3A283B22679CF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2E0AE92EDB75B7EE"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 0.0d
+			subtitle: "Protect yourself with a piece of iron armour"
+			id: "0C77B7023F8E0654"
+			tasks: [{
+				id: "5507C08F7AD892E7"
+				type: "advancement"
+				title: "Suit Up"
+				advancement: "minecraft:story/obtain_armor"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1D7C6885A19CDC87"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "659CC17F4C2BF8F4"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:respiration"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Cover Me With Diamonds"
+			x: -7.0d
+			y: 0.0d
+			subtitle: "Diamond armour saves lives"
+			id: "0A2F5DE4C2E83B28"
+			tasks: [
+				{
+					id: "1FA173B49EE2BFBB"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1E486FC5F13D9B8C"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "40B2800F1FFC063A"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0ACEE9124B39C4CA"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0CBA2B8A511CB2C7"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "5C6B9BC3D400B864"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5FC256A6DDBA6513"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Free the End"
+			x: -10.0d
+			y: 2.0d
+			shape: "octagon"
+			subtitle: "Kill the Ender Dragon"
+			size: 1.5d
+			id: "688877EBAD14657C"
+			tasks: [{
+				id: "63C7E94E66C21118"
+				type: "kill"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "51E4F10E8D6B6DE6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "57C8E4816661B694"
+					type: "item"
+					item: "minecraft:dragon_head"
+				}
+			]
+		}
+		{
+			title: "Find a Companion House"
+			x: -10.0d
+			y: 0.0d
+			id: "6FC3DD964B4A66B1"
+			tasks: [{
+				id: "5813B5DA46A1482F"
+				type: "structure"
+				title: "Find a Companion House"
+				icon: {
+					id: "magistuarmory:iron_heatershield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				structure: "humancompanions:companion_house"
+			}]
+		}
+		{
+			title: "What Day is It?"
+			x: 0.0d
+			y: 5.0d
+			subtitle: "Craft a calender to see what season it is"
+			id: "6BAD4CB75F9ABF1B"
+			tasks: [{
+				id: "4BBFD2369D7944AE"
+				type: "item"
+				item: "sereneseasons:calendar"
+			}]
+			rewards: [{
+				id: "6977A0771C2444D4"
+				type: "item"
+				item: "minecraft:clock"
+			}]
+		}
+		{
+			title: "Automated Season Detecting"
+			x: 0.0d
+			y: 4.0d
+			subtitle: "Craft a season sensor"
+			id: "38D16065F571D559"
+			tasks: [{
+				id: "227F8F2F20E7363E"
+				type: "item"
+				item: "sereneseasons:season_sensor"
+			}]
+			rewards: [
+				{
+					id: "0BA3B1E0013569F0"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 64
+				}
+				{
+					id: "2E920AFF7CD26BF4"
+					type: "item"
+					item: "minecraft:repeater"
+					count: 16
+				}
+				{
+					id: "50B09814BDCA5263"
+					type: "item"
+					item: "minecraft:comparator"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "The Peaceful Life"
+			icon: {
+				id: "minecraft:iron_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: -6.0d
+			subtitle: "Craft a hoe to start your farming adventure"
+			id: "1C0B20F6AC19E8CF"
+			tasks: [{
+				id: "06F7B191E2ECA168"
+				type: "item"
+				title: "Get a hoe ;)"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:hoes"
+					}
+				}
+			}]
+			rewards: [{
+				id: "38AC92C8375D9073"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			title: "Nature's Candy"
+			icon: "minecraft:sweet_berries"
+			x: 0.0d
+			y: -3.0d
+			subtitle: "Find some sweet berries"
+			id: "009F77693CE38B64"
+			tasks: [{
+				id: "20EFB13B37B45918"
+				type: "item"
+				item: "minecraft:sweet_berries"
+			}]
+			rewards: [{
+				id: "021C6B2F527EC20D"
+				type: "item"
+				item: "farmersdelight:pie_crust"
+				count: 4
+			}]
+		}
+		{
+			title: "That Was a Cow Right?"
+			x: 1.5d
+			y: -6.0d
+			subtitle: "Use a bucket on a cow to milk it"
+			id: "4FC75E8F546E25EF"
+			tasks: [{
+				id: "46E3DF4814FC041A"
+				type: "item"
+				item: "minecraft:milk_bucket"
+			}]
+			rewards: [{
+				id: "6D57565CBB9F80E7"
+				type: "item"
+				item: "mcwfences:spruce_picket_fence"
+				count: 16
+			}]
+		}
+		{
+			title: "Your First Harvest"
+			x: -1.5d
+			y: -6.0d
+			subtitle: "Right click a fullgrown wheat plant to harvest it"
+			id: "7E95F34AE60ED464"
+			tasks: [{
+				id: "334090BEBFF29765"
+				type: "item"
+				item: "minecraft:wheat"
+			}]
+			rewards: [{
+				id: "4BD227CBFB206B8C"
+				type: "item"
+				item: "minecraft:bread"
+				count: 6
+			}]
+		}
+		{
+			title: "Sweet, Sweet Sugar"
+			x: 0.0d
+			y: -7.0d
+			subtitle: "Find some sugar cane"
+			id: "638AB51C224487A5"
+			tasks: [{
+				id: "46DB66B5755EA023"
+				type: "item"
+				item: "minecraft:sugar_cane"
+			}]
+			rewards: [{
+				id: "425238891CBDD0A0"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			title: "Ooh, My Favorite"
+			x: 1.5d
+			y: -4.5d
+			subtitle: "Make a cheesecake"
+			id: "5C5D47EFF0D7EFD3"
+			tasks: [{
+				id: "5EC3530364FA7606"
+				type: "item"
+				item: "farmersdelight:sweet_berry_cheesecake"
+			}]
+			rewards: [{
+				id: "65C8E68E46595264"
+				type: "item"
+				item: "farmersdelight:hot_cocoa"
+			}]
+		}
+		{
+			title: "A Real Delicacy"
+			x: 1.5d
+			y: -1.5d
+			subtitle: "Make a fancy meal"
+			size: 1.5d
+			id: "1FB619B5C7BDD04F"
+			tasks: [{
+				id: "6A71B1EC4DBA7363"
+				type: "item"
+				item: "farmersdelight:grilled_salmon"
+			}]
+			rewards: [{
+				id: "0DEBEA98B0D983A0"
+				type: "item"
+				item: "farmersdelight:apple_cider"
+				count: 2
+			}]
+		}
+		{
+			title: "Find Some Melons"
+			x: 0.0d
+			y: 6.0d
+			subtitle: "Find and harvest some melons"
+			id: "4CD2452D37B8F8ED"
+			tasks: [{
+				id: "1FD257D8AF7D2974"
+				type: "item"
+				item: "minecraft:melon_slice"
+			}]
+			rewards: [
+				{
+					id: "1D42687D70B4A9AB"
+					type: "item"
+					item: "minecraft:glass_bottle"
+					count: 8
+				}
+				{
+					id: "3E05CAC02CA955EE"
+					type: "item"
+					item: "minecraft:ice"
+					count: 6
+				}
+			]
+		}
+		{
+			title: "A Delicious Snack"
+			x: 1.5d
+			y: 5.0d
+			subtitle: "Use some ice and melon slices to make a delicious snack!"
+			id: "0AE23BB418403FAD"
+			tasks: [{
+				id: "705FECFAB2E1EA7E"
+				type: "item"
+				item: "farmersdelight:melon_popsicle"
+			}]
+			rewards: [
+				{
+					id: "34717DD19DAB0953"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "274E213A3064F383"
+					type: "item"
+					item: "farmersdelight:apple_pie_slice"
+				}
+			]
+		}
+		{
+			title: "A Drink for a Hot Day"
+			x: -1.5d
+			y: 5.0d
+			subtitle: "Craft some melon juice to get through those hot days"
+			id: "0DEDCBD90AD231DD"
+			tasks: [{
+				id: "1C8771A07D4B1523"
+				type: "item"
+				item: "farmersdelight:melon_juice"
+			}]
+			rewards: [
+				{
+					id: "0A80AA5FCC25F902"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "49FF63AF90604231"
+					type: "item"
+					item: "farmersdelight:cake_slice"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			id: "2DE51C01C72B11F0"
+			tasks: [{
+				id: "6A9713D4EBA69972"
+				type: "item"
+				item: "farmersdelight:sweet_berry_cookie"
+			}]
+			rewards: [{
+				id: "60A6AF288376DA55"
+				type: "item"
+				item: "survive:sugar_water_bottle"
+				count: 6
+			}]
+		}
+		{
+			title: "Dont Cry Now"
+			x: 3.0d
+			y: 0.0d
+			subtitle: "Find some onions"
+			id: "5B94E7BB62B4ED76"
+			tasks: [{
+				id: "41E5C099CD1DB1C1"
+				type: "item"
+				item: "farmersdelight:onion"
+			}]
+			rewards: [{
+				id: "5BB7F7EB431AE17F"
+				type: "item"
+				title: "Tissues :("
+				item: "minecraft:paper"
+				count: 16
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "Remember when we did Star Wars?"
+			description: ["Do you have potato’s? Butter? Cream? Salt? Pepper? Garlic? Onions? Lamb? Carrots? Eggs? Flour? Rosemary? Thyme? Chicken broth? Corn? Peas?"]
+			size: 2.0d
+			secret: true
+			id: "1B9D4DB436AC1195"
+			tasks: [{
+				id: "4ED11D289DDAF6C6"
+				type: "item"
+				item: "farmersdelight:shepherds_pie_block"
+			}]
+			rewards: [{
+				id: "6FA96196E04335DE"
+				type: "item"
+				title: "\"Lightsaber\""
+				item: {
+					id: "endrem:end_crystal_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			subtitle: "Four new crops may be found in the wild, across many climates... or maybe in a chest somewhere."
+			id: "71E4306EF8DFEA2B"
+			tasks: [{
+				id: "2D8E88CB04AAE11D"
+				type: "advancement"
+				title: "Crops of the Wild"
+				advancement: "farmersdelight:main/get_fd_seed"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6816EEC0CC3160B0"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 16
+			}]
+		}
+		{
+			title: "If You Can't Take the Heat..."
+			x: -1.5d
+			y: 1.5d
+			shape: "hexagon"
+			subtitle: "Spend a whole Netherite Ingot to upgrade your knife! Or get out of the kitchen."
+			description: [""]
+			id: "07E32392559A2CA6"
+			tasks: [{
+				id: "594672C138ABA0E5"
+				type: "item"
+				item: {
+					id: "farmersdelight:netherite_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "70A2405005E6D833"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 8
+				}
+				{
+					id: "0130F73A9C529C89"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			subtitle: "With a tool in hand, use a cutting board to break down an item"
+			id: "4672E7B5CB6D8B34"
+			tasks: [{
+				id: "1B295A207306E462"
+				type: "advancement"
+				title: "Watch Your Fingers"
+				advancement: "farmersdelight:main/use_cutting_board"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "53E5C73C6DF1FB77"
+				type: "item"
+				item: "byg:chain_plating"
+				count: 16
+			}]
+		}
+		{
+			title: "Hunt and Gather"
+			x: -4.5d
+			y: 1.5d
+			subtitle: "Craft a knife to scavenge extra goods from plants and animals"
+			id: "6197937623D952AF"
+			tasks: [{
+				id: "0A433F20AE3F73D8"
+				type: "item"
+				title: "Craft a Farmers Delight knife"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "farmersdelight:tools/knives"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "26F20292A9AF891E"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 8
+				}
+				{
+					id: "3B1792C2D579D3BE"
+					type: "choice"
+					icon: "farmersdelight:spruce_pantry"
+					table_id: 3393859079874850590L
+				}
+			]
+		}
+		{
+			title: "Wild Butcher"
+			x: -3.0d
+			y: 0.0d
+			subtitle: "Use a knife to extract ham from pigs or hoglins"
+			id: "091B3A21889FA8D7"
+			tasks: [{
+				id: "0E31EA62F4D5635B"
+				type: "item"
+				item: "farmersdelight:ham"
+			}]
+			rewards: [
+				{
+					id: "0CDB32AB326A6304"
+					type: "item"
+					item: "farmersdelight:cooked_rice"
+					count: 4
+				}
+				{
+					id: "09384D7BB7B55B24"
+					type: "item"
+					item: "minecraft:honey_bottle"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			subtitle: "Harvest grass, wheat or rice with a knife to collect straw"
+			id: "5047CB15BCF8FDFE"
+			tasks: [{
+				id: "593EB7E9058045E4"
+				type: "advancement"
+				title: "Grasping at Straws"
+				advancement: "farmersdelight:main/harvest_straw"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0E5787DEC8CAB5B3"
+				type: "item"
+				item: "farmersdelight:tree_bark"
+				count: 16
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			subtitle: "Place down some organic compost. It composts better with sun, water and mushrooms!"
+			id: "3F76975AAFD409D9"
+			tasks: [
+				{
+					id: "7A787C0B82122402"
+					type: "item"
+					item: "farmersdelight:organic_compost"
+				}
+				{
+					id: "283E9150C290D098"
+					type: "advancement"
+					title: "Place Organic Compost"
+					advancement: "farmersdelight:main/place_organic_compost"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "55EFDE1BC44F1B7B"
+					type: "item"
+					item: "farmersdelight:red_mushroom_colony"
+				}
+				{
+					id: "4E3B5CC87E4046E8"
+					type: "item"
+					item: "farmersdelight:brown_mushroom_colony"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			subtitle: "Organic compost slowly decays into rich soil, an upgrade to your farms!"
+			id: "6F98B162AD73DCE5"
+			tasks: [{
+				id: "7D749CC943E01E99"
+				type: "advancement"
+				title: "Plant Food"
+				advancement: "farmersdelight:main/get_rich_soil"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "54B838D813021BC3"
+				type: "item"
+				item: "minecraft:bone_block"
+				count: 8
+			}]
+		}
+		{
+			title: "All That Hard Work Payed Off"
+			x: -1.5d
+			y: -1.5d
+			subtitle: "Craft and enjoy a honey glazed ham"
+			size: 1.5d
+			id: "3EFDD226C70D2EE8"
+			tasks: [{
+				id: "3BE294D73622109B"
+				type: "item"
+				item: "farmersdelight:honey_glazed_ham_block"
+			}]
+			rewards: [
+				{
+					id: "56DDCA98CAC2A6EF"
+					type: "item"
+					item: "minecraft:bowl"
+					count: 16
+				}
+				{
+					id: "20D96C9B5DB13BB8"
+					type: "item"
+					item: "survive:purified_water_bottle"
+					count: 6
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			subtitle: "Plant grains of rice in a shallow water puddle"
+			id: "015061CFFBD3FF01"
+			tasks: [{
+				id: "61C6F914A532A9AD"
+				type: "questsadditions:place"
+				title: "Dipping Your Roots"
+				icon: "farmersdelight:rice"
+				block_type: 0
+				block: "farmersdelight:rice"
+				value: 1L
+				replaced: "minecraft:air"
+				replace: false
+			}]
+			rewards: [
+				{
+					id: "7CA6891A8D62F8FF"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 8
+				}
+				{
+					id: "4F73730A37567D05"
+					type: "item"
+					item: "minecraft:kelp"
+					count: 12
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			subtitle: "Shear a fully mature mushroom colony. To grow them like this, you'll need a very rich soil..."
+			id: "3E60E8F5DF6ED60C"
+			tasks: [{
+				id: "280A7B4C23B701F8"
+				type: "advancement"
+				title: "Fungus Among Us"
+				advancement: "farmersdelight:main/get_mushroom_colony"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "3E90D1DF82508C43"
+					type: "item"
+					item: "minecraft:iron_block"
+				}
+				{
+					id: "1755712E65F62E50"
+					type: "xp"
+					xp: 30
+				}
+			]
+		}
+		{
+			title: "You're Such a Fun-Guy!"
+			x: 3.0d
+			y: 3.0d
+			subtitle: "Find and harvest some wild mushrooms"
+			id: "63862106488AD4E6"
+			tasks: [
+				{
+					id: "33C0C345C2BF9606"
+					type: "item"
+					item: "minecraft:brown_mushroom"
+				}
+				{
+					id: "008A599B606D656C"
+					type: "item"
+					item: "minecraft:red_mushroom"
+				}
+			]
+			rewards: [{
+				id: "2945C76F8011F3C6"
+				type: "item"
+				item: "minecraft:mushroom_stew"
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			subtitle: "Cultivate every food-related plant you can find, such as vegetables, fruits, fungi or roots!"
+			id: "67AB6CA7D1565ED6"
+			tasks: [{
+				id: "0154CCD052B817A0"
+				type: "advancement"
+				title: "Crop Rotation"
+				advancement: "farmersdelight:main/plant_all_crops"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "557339FD27152389"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7F1771A918355299"
+					type: "item"
+					item: "farmersdelight:rich_soil"
+					count: 32
+				}
+			]
+		}
+		{
+			title: "Movable Liquids!"
+			x: 3.0d
+			y: -6.0d
+			subtitle: "Use your iron to craft a bucket"
+			id: "34C66AD9483CE75A"
+			tasks: [{
+				id: "5F8273FCC10C2879"
+				type: "item"
+				item: "minecraft:bucket"
+			}]
+			rewards: [{
+				id: "5403F28E3151CD65"
+				type: "item"
+				item: "minecraft:glass_bottle"
+				count: 12
+			}]
+		}
+		{
+			title: "Not a Lie!"
+			x: 0.0d
+			y: -5.0d
+			subtitle: "Bake a delicious cake"
+			size: 1.5d
+			id: "65E798C309A498B3"
+			tasks: [{
+				id: "75097564CD498F1C"
+				type: "item"
+				item: "minecraft:cake"
+			}]
+			rewards: [{
+				id: "5D11B7B2E619507E"
+				type: "item"
+				item: "farmersdelight:honey_cookie"
+				count: 6
+			}]
+		}
+	]
+}

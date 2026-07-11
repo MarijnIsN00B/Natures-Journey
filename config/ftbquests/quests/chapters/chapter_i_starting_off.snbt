@@ -2,8 +2,8 @@
 	id: "0FD40D367ABC4531"
 	group: ""
 	order_index: 0
-	filename: "test"
-	title: "Chapter 1: Starting Off"
+	filename: "chapter_i_starting_off"
+	title: "Chapter I: Starting Off"
 	icon: {
 		id: "notreepunching:flint_knife"
 		Count: 1b
@@ -124,12 +124,20 @@
 				advancement: "notreepunching:story/mattock"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "0533194179C16A14"
-				type: "item"
-				item: "minecraft:iron_ingot"
-				count: 16
-			}]
+			rewards: [
+				{
+					id: "0533194179C16A14"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 8
+				}
+				{
+					id: "56E217793123FF72"
+					type: "item"
+					item: "minecraft:leather"
+					count: 4
+				}
+			]
 		}
 		{
 			title: "Macaroniwhatnow?"
@@ -323,6 +331,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6A85340E66A7E7D7"
+				type: "item"
+				item: "survive:charcoal_filter"
+			}]
 		}
 		{
 			title: "Such a Tool"
@@ -360,6 +373,49 @@
 				type: "item"
 				item: "notreepunching:plant_fiber"
 				count: 3L
+			}]
+			rewards: [{
+				id: "2D8C5901D774B8E4"
+				type: "item"
+				item: "minecraft:beetroot_soup"
+				count: 3
+			}]
+		}
+		{
+			x: -8.0d
+			y: -1.5d
+			id: "493BA767E52DC75D"
+			tasks: [{
+				id: "36394920C1D1077E"
+				type: "checkmark"
+				title: "How To Survive: Volume I"
+			}]
+		}
+		{
+			title: "Welcome!"
+			x: -8.0d
+			y: -3.0d
+			id: "342D412B65697CA4"
+			tasks: [{
+				id: "3807827E9017B392"
+				type: "checkmark"
+				title: "Welcome!"
+			}]
+			rewards: [{
+				id: "00F9DB7A1C136E86"
+				type: "item"
+				title: "Backup Quest Book"
+				item: "ftbquests:book"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			id: "042C2181FB6680E5"
+			tasks: [{
+				id: "6911ED39623B7206"
+				type: "checkmark"
+				title: "How To Fight: Volume I"
 			}]
 		}
 	]

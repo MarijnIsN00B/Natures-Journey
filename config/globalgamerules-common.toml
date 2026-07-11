@@ -87,6 +87,10 @@
 	#No comment
 	#Range: > 0
 	teleportation_anchor_cooldown = 6000
+	#No comment
+	sea_sponges_and_buckets = true
+	#No comment
+	sea_trader_lootbox = true
 
 #Configs related to difficult changes
 [difficulty]

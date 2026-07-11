@@ -1,0 +1,10 @@
+{
+	id: "55E291A08CBB9904"
+	group: ""
+	order_index: 4
+	filename: "chapter_v_the_end"
+	title: "Chapter V: The End"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}
