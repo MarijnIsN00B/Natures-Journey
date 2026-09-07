@@ -277,11 +277,13 @@
 				id: "1CB4A714A0C7D21D"
 				type: "item"
 				item: "minecraft:iron_ingot"
+				count: 4L
 			}]
 			rewards: [{
 				id: "5EB8B1EB2890EAFF"
 				type: "item"
 				item: "farmersdelight:barbecue_stick"
+				count: 4
 			}]
 		}
 		{

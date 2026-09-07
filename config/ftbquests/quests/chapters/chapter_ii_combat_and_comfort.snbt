@@ -8,197 +8,6 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Take Aim"
-			x: -11.5d
-			y: 0.0d
-			subtitle: "Craft a bow"
-			id: "3D53D261594CFDEE"
-			tasks: [{
-				id: "0902CD71B9435473"
-				type: "item"
-				item: {
-					id: "minecraft:bow"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "4759F47AE532A013"
-				type: "item"
-				item: "minecraft:arrow"
-				count: 16
-			}]
-		}
-		{
-			x: -8.5d
-			y: -1.5d
-			subtitle: "Kill a raid captain. Maybe consider staying away from villages for the time being..."
-			id: "5C415E2061B7A46E"
-			tasks: [{
-				id: "40C4E5634D379866"
-				type: "advancement"
-				title: "Voluntary Exile"
-				advancement: "minecraft:adventure/voluntary_exile"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "0FA63EBB11BDD4ED"
-				type: "item"
-				item: "farmersdelight:barbecue_stick"
-			}]
-		}
-		{
-			x: -7.0d
-			y: -1.5d
-			subtitle: "Successfully defend a village from a raid"
-			id: "7433DB3C02584422"
-			tasks: [{
-				id: "0D5AA15014B5CBD1"
-				type: "advancement"
-				title: "Hero of the Village"
-				advancement: "minecraft:adventure/hero_of_the_village"
-				criterion: ""
-			}]
-			rewards: [
-				{
-					id: "2940765B914B505B"
-					type: "item"
-					item: "minecraft:totem_of_undying"
-				}
-				{
-					id: "46F2EF5EC13143AA"
-					type: "item"
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s
-								id: "minecraft:mending"
-							}]
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -13.0d
-			y: 1.5d
-			subtitle: "Kill a skeleton from at least 50 meters away"
-			id: "3D63B91AE48CE8D8"
-			tasks: [{
-				id: "5AF0D9C255881E98"
-				type: "advancement"
-				title: "Sniper Duel"
-				advancement: "minecraft:adventure/sniper_duel"
-				criterion: ""
-			}]
-			rewards: [
-				{
-					id: "4E9464CA7F65E952"
-					type: "item"
-					item: {
-						id: "minecraft:tipped_arrow"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:harming"
-						}
-					}
-					count: 16
-				}
-				{
-					id: "0A937FBD31DDF97F"
-					type: "item"
-					item: "minecraft:diamond"
-					count: 6
-				}
-			]
-		}
-		{
-			x: -13.0d
-			y: -1.5d
-			subtitle: "Hit the bullseye of a target block from at least 30 meters away"
-			id: "7F2A31458DB29B05"
-			tasks: [{
-				id: "2C1EF354B132AE57"
-				type: "advancement"
-				title: "Bullseye"
-				advancement: "minecraft:adventure/bullseye"
-				criterion: ""
-			}]
-			rewards: [
-				{
-					id: "0C7206BC0273A75E"
-					type: "xp"
-					xp: 20
-				}
-				{
-					id: "37644E27ABCF05ED"
-					type: "item"
-					item: "minecraft:gold_ingot"
-					count: 8
-				}
-			]
-		}
-		{
-			x: -13.0d
-			y: 0.0d
-			subtitle: "Give a pillager a taste of their own medicine"
-			id: "0E8C9B9CE3924EA6"
-			tasks: [{
-				id: "2758C2064FED888B"
-				type: "advancement"
-				title: "Who's the Pillager Now"
-				advancement: "minecraft:adventure/whos_the_pillager_now"
-				criterion: ""
-			}]
-			rewards: [
-				{
-					id: "61EE7E024EBF8502"
-					type: "xp"
-					xp: 20
-				}
-				{
-					id: "534579D47F16FA62"
-					type: "item"
-					item: "minecraft:iron_block"
-				}
-			]
-		}
-		{
-			x: -10.0d
-			y: -4.0d
-			shape: "octagon"
-			size: 2.0d
-			id: "1170573F3527F447"
-			tasks: [{
-				id: "3A4296945DC837E1"
-				type: "advancement"
-				title: "Monsters Hunted"
-				advancement: "minecraft:adventure/kill_all_mobs"
-				criterion: ""
-			}]
-			rewards: [
-				{
-					id: "6DE795068B93C370"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "45F06183A3C648C5"
-					type: "item"
-					item: "minecraft:netherite_ingot"
-				}
-				{
-					id: "713A09FD7FE70180"
-					type: "item"
-					item: "minecraft:enchanted_golden_apple"
-				}
-			]
-		}
-		{
 			title: "Ametrine Time"
 			icon: {
 				id: "byg:ametrine_chestplate"
@@ -271,151 +80,10 @@
 			]
 		}
 		{
-			x: -8.5d
-			y: 0.0d
-			subtitle: "Protect yourself with a piece of iron armour"
-			id: "0C77B7023F8E0654"
-			tasks: [{
-				id: "5507C08F7AD892E7"
-				type: "advancement"
-				title: "Suit Up"
-				advancement: "minecraft:story/obtain_armor"
-				criterion: ""
-			}]
-			rewards: [
-				{
-					id: "1D7C6885A19CDC87"
-					type: "xp"
-					xp: 20
-				}
-				{
-					id: "659CC17F4C2BF8F4"
-					type: "item"
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 3s
-								id: "minecraft:respiration"
-							}]
-						}
-					}
-				}
-			]
-		}
-		{
-			title: "Cover Me With Diamonds"
-			x: -7.0d
-			y: 0.0d
-			subtitle: "Diamond armour saves lives"
-			id: "0A2F5DE4C2E83B28"
-			tasks: [
-				{
-					id: "1FA173B49EE2BFBB"
-					type: "item"
-					item: {
-						id: "minecraft:diamond_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "1E486FC5F13D9B8C"
-					type: "item"
-					item: {
-						id: "minecraft:diamond_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "40B2800F1FFC063A"
-					type: "item"
-					item: {
-						id: "minecraft:diamond_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "0ACEE9124B39C4CA"
-					type: "item"
-					item: {
-						id: "minecraft:diamond_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [
-				{
-					id: "0CBA2B8A511CB2C7"
-					type: "item"
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 4s
-								id: "minecraft:protection"
-							}]
-						}
-					}
-				}
-				{
-					id: "5C6B9BC3D400B864"
-					type: "xp"
-					xp: 20
-				}
-				{
-					id: "5FC256A6DDBA6513"
-					type: "item"
-					item: "minecraft:diamond"
-					count: 4
-				}
-			]
-		}
-		{
-			title: "Free the End"
-			x: -10.0d
-			y: 2.0d
-			shape: "octagon"
-			subtitle: "Kill the Ender Dragon"
-			size: 1.5d
-			id: "688877EBAD14657C"
-			tasks: [{
-				id: "63C7E94E66C21118"
-				type: "kill"
-				icon: "minecraft:dragon_head"
-				entity: "minecraft:ender_dragon"
-				value: 1L
-			}]
-			rewards: [
-				{
-					id: "51E4F10E8D6B6DE6"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "57C8E4816661B694"
-					type: "item"
-					item: "minecraft:dragon_head"
-				}
-			]
-		}
-		{
 			title: "Find a Companion House"
 			x: -10.0d
 			y: 0.0d
+			subtitle: "Find a the home of a friendly face"
 			id: "6FC3DD964B4A66B1"
 			tasks: [{
 				id: "5813B5DA46A1482F"
@@ -481,37 +149,6 @@
 			]
 		}
 		{
-			title: "The Peaceful Life"
-			icon: {
-				id: "minecraft:iron_hoe"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: -3.0d
-			y: -6.0d
-			subtitle: "Craft a hoe to start your farming adventure"
-			id: "1C0B20F6AC19E8CF"
-			tasks: [{
-				id: "06F7B191E2ECA168"
-				type: "item"
-				title: "Get a hoe ;)"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:hoes"
-					}
-				}
-			}]
-			rewards: [{
-				id: "38AC92C8375D9073"
-				type: "item"
-				item: "minecraft:water_bucket"
-			}]
-		}
-		{
 			title: "Nature's Candy"
 			icon: "minecraft:sweet_berries"
 			x: 0.0d
@@ -532,8 +169,8 @@
 		}
 		{
 			title: "That Was a Cow Right?"
-			x: 1.5d
-			y: -6.0d
+			x: 0.0d
+			y: -6.5d
 			subtitle: "Use a bucket on a cow to milk it"
 			id: "4FC75E8F546E25EF"
 			tasks: [{
@@ -549,45 +186,11 @@
 			}]
 		}
 		{
-			title: "Your First Harvest"
-			x: -1.5d
-			y: -6.0d
-			subtitle: "Right click a fullgrown wheat plant to harvest it"
-			id: "7E95F34AE60ED464"
-			tasks: [{
-				id: "334090BEBFF29765"
-				type: "item"
-				item: "minecraft:wheat"
-			}]
-			rewards: [{
-				id: "4BD227CBFB206B8C"
-				type: "item"
-				item: "minecraft:bread"
-				count: 6
-			}]
-		}
-		{
-			title: "Sweet, Sweet Sugar"
-			x: 0.0d
-			y: -7.0d
-			subtitle: "Find some sugar cane"
-			id: "638AB51C224487A5"
-			tasks: [{
-				id: "46DB66B5755EA023"
-				type: "item"
-				item: "minecraft:sugar_cane"
-			}]
-			rewards: [{
-				id: "425238891CBDD0A0"
-				type: "xp"
-				xp: 20
-			}]
-		}
-		{
 			title: "Ooh, My Favorite"
 			x: 1.5d
 			y: -4.5d
 			subtitle: "Make a cheesecake"
+			dependencies: ["009F77693CE38B64"]
 			id: "5C5D47EFF0D7EFD3"
 			tasks: [{
 				id: "5EC3530364FA7606"
@@ -696,6 +299,7 @@
 		{
 			x: -1.5d
 			y: -4.5d
+			dependencies: ["009F77693CE38B64"]
 			id: "2DE51C01C72B11F0"
 			tasks: [{
 				id: "6A9713D4EBA69972"
@@ -1089,28 +693,11 @@
 			]
 		}
 		{
-			title: "Movable Liquids!"
-			x: 3.0d
-			y: -6.0d
-			subtitle: "Use your iron to craft a bucket"
-			id: "34C66AD9483CE75A"
-			tasks: [{
-				id: "5F8273FCC10C2879"
-				type: "item"
-				item: "minecraft:bucket"
-			}]
-			rewards: [{
-				id: "5403F28E3151CD65"
-				type: "item"
-				item: "minecraft:glass_bottle"
-				count: 12
-			}]
-		}
-		{
 			title: "Not a Lie!"
 			x: 0.0d
 			y: -5.0d
 			subtitle: "Bake a delicious cake"
+			dependencies: ["4FC75E8F546E25EF"]
 			size: 1.5d
 			id: "65E798C309A498B3"
 			tasks: [{
