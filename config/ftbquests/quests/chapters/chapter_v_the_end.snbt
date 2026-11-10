@@ -6,16 +6,5 @@
 	title: "Chapter V: The End"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 0.0d
-		y: 0.0d
-		id: "49082E4F303C491C"
-		tasks: [{
-			id: "3A6F338541C26AF8"
-			type: "kill"
-			title: "Test"
-			entity: "minecraft:zombie"
-			value: 100L
-		}]
-	}]
+	quests: [ ]
 }

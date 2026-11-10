@@ -8,95 +8,20 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Ametrine Time"
-			icon: {
-				id: "byg:ametrine_chestplate"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: -5.5d
-			y: 0.0d
-			subtitle: "Get a fill set of ametrine armour"
-			id: "747F343A8FAB56EA"
-			tasks: [
-				{
-					id: "468C15A3016B369D"
-					type: "item"
-					item: {
-						id: "byg:ametrine_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "012016408ADE643E"
-					type: "item"
-					item: {
-						id: "byg:ametrine_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "6261A8023299E88B"
-					type: "item"
-					item: {
-						id: "byg:ametrine_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "079EDBC47CF75F2E"
-					type: "item"
-					item: {
-						id: "byg:ametrine_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [
-				{
-					id: "23B3A283B22679CF"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "2E0AE92EDB75B7EE"
-					type: "item"
-					item: "minecraft:netherite_ingot"
-				}
-			]
-		}
-		{
-			title: "Find a Companion House"
-			x: -10.0d
-			y: 0.0d
+			title: "Making Acquaintances"
+			x: -6.5d
+			y: -3.0d
 			subtitle: "Find a the home of a friendly face"
 			id: "6FC3DD964B4A66B1"
 			tasks: [{
-				id: "5813B5DA46A1482F"
-				type: "structure"
-				title: "Find a Companion House"
-				icon: {
-					id: "magistuarmory:iron_heatershield"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-				structure: "humancompanions:companion_house"
+				id: "0E0F7CD5F3EECD6C"
+				type: "questsadditions:interaction"
+				title: "Find a Companion"
+				icon: "minecraft:player_head"
+				entity: "minecraft:zombie_villager"
+				nbt: { }
+				value: 1L
+				checkItem: false
 			}]
 		}
 		{
@@ -710,6 +635,31 @@
 				type: "item"
 				item: "farmersdelight:honey_cookie"
 				count: 6
+			}]
+		}
+		{
+			title: "Tame Horse"
+			x: 0.0d
+			y: -9.0d
+			id: "0594047D6AC8DB82"
+			tasks: [{
+				id: "599B5B8F80F02981"
+				type: "questsadditions:interaction"
+				entity: "minecraft:horse"
+				nbt: { }
+				value: 100L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Tame Dog"
+			x: 6.5d
+			y: -3.0d
+			id: "50E9CC099EEBE180"
+			tasks: [{
+				id: "38F9ED708A648574"
+				type: "item"
+				item: "minecraft:stone"
 			}]
 		}
 	]

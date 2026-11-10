@@ -79,12 +79,20 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "5CF9777FDF4ABC67"
-				type: "item"
-				item: "survive:purified_water_bowl"
-				count: 3
-			}]
+			rewards: [
+				{
+					id: "5CF9777FDF4ABC67"
+					type: "item"
+					item: "survive:purified_water_bowl"
+					count: 3
+				}
+				{
+					id: "343CD6CFEAD912FC"
+					type: "item"
+					item: "minecraft:cooked_salmon"
+					count: 8
+				}
+			]
 		}
 		{
 			title: "My First Pickaxe"
@@ -104,17 +112,30 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "325FFF11127B9B3E"
-				type: "item"
-				item: "minecraft:coal"
-				count: 8
-			}]
+			rewards: [
+				{
+					id: "325FFF11127B9B3E"
+					type: "item"
+					item: "minecraft:coal"
+					count: 8
+				}
+				{
+					id: "679E5BA7741FB6DC"
+					type: "item"
+					item: {
+						id: "notreepunching:flint_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Getting a Better Upgrade"
-			x: 2.5d
-			y: -2.5d
+			x: 4.0d
+			y: 1.0d
 			subtitle: "Craft a mattock, a hoe-axe-shovel-all-in-one-multitool!"
 			dependencies: ["21BBFB944987C4D1"]
 			id: "621C17B8D0383B74"
@@ -259,19 +280,17 @@
 					count: 4
 				}
 				{
-					id: "690BBAA5AEBFFB0C"
+					id: "50980A4912BE5959"
 					type: "item"
-					item: "minecraft:stick"
-					count: 4
+					item: "comforts:sleeping_bag_green"
 				}
 			]
 		}
 		{
 			title: "The Iron Age"
-			x: 2.5d
+			x: 4.0d
 			y: -0.5d
 			subtitle: "Smelt an iron ingot"
-			dependencies: ["629FCD74F0CB072B"]
 			id: "21BBFB944987C4D1"
 			tasks: [{
 				id: "1CB4A714A0C7D21D"
@@ -285,36 +304,6 @@
 				item: "farmersdelight:barbecue_stick"
 				count: 4
 			}]
-		}
-		{
-			x: 4.0d
-			y: -0.5d
-			shape: "octagon"
-			subtitle: "Upgrade your pickaxe"
-			dependencies: ["21BBFB944987C4D1"]
-			size: 1.2d
-			id: "04D2367C0BDFFDB2"
-			tasks: [{
-				id: "29E3D4FA019D2001"
-				type: "advancement"
-				title: "Isn't It Iron Pick"
-				advancement: "minecraft:story/iron_tools"
-				criterion: ""
-			}]
-			rewards: [
-				{
-					id: "71063DD438A6D497"
-					type: "item"
-					item: "minecraft:iron_ingot"
-					count: 4
-				}
-				{
-					id: "4B2D38658A943B9F"
-					type: "item"
-					item: "minecraft:torch"
-					count: 16
-				}
-			]
 		}
 		{
 			x: -2.0d
@@ -384,24 +373,16 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: -1.5d
-			id: "493BA767E52DC75D"
-			tasks: [{
-				id: "36394920C1D1077E"
-				type: "checkmark"
-				title: "How To Survive: Volume I"
-			}]
-		}
-		{
 			title: "Welcome!"
 			x: -8.0d
-			y: -3.0d
+			y: -1.5d
+			repeatable: true
 			id: "342D412B65697CA4"
 			tasks: [{
 				id: "3807827E9017B392"
 				type: "checkmark"
 				title: "Welcome!"
+				disable_toast: true
 			}]
 			rewards: [{
 				id: "00F9DB7A1C136E86"
@@ -411,14 +392,58 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 0.0d
-			id: "042C2181FB6680E5"
+			title: "My First Smelter!"
+			x: 2.5d
+			y: -0.5d
+			id: "75DA44C863BACCD5"
 			tasks: [{
-				id: "6911ED39623B7206"
-				type: "checkmark"
-				title: "How To Fight: Volume I"
+				id: "204CD7F548E9E671"
+				type: "item"
+				item: "tconstruct:seared_melter"
 			}]
+			rewards: [{
+				id: "46F2C5785A7BC710"
+				type: "item"
+				item: "minecraft:lava_bucket"
+				count: 2
+			}]
+		}
+		{
+			title: "Constructing Time"
+			x: 2.5d
+			y: -3.5d
+			id: "44FD1A59F74CB7E0"
+			tasks: [
+				{
+					id: "66BBEF78A755AB3E"
+					type: "item"
+					item: "tconstruct:crafting_station"
+				}
+				{
+					id: "7E6EF5B1C8C0D159"
+					type: "item"
+					item: "tconstruct:tinker_station"
+				}
+				{
+					id: "5ABE6E46DCB41DD0"
+					type: "item"
+					item: "tconstruct:part_builder"
+				}
+			]
+			rewards: [
+				{
+					id: "5771009662A66820"
+					type: "item"
+					item: "tconstruct:pattern"
+					count: 8
+				}
+				{
+					id: "40D321C1A6E84513"
+					type: "item"
+					item: "tconstruct:blank_sand_cast"
+					count: 8
+				}
+			]
 		}
 	]
 }

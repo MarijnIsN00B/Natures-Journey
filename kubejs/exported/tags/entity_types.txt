@@ -1,0 +1,150 @@
+To refresh this file, delete it and run /reload command again! Last updated: Sep 18, 2026 9:47:30 PM
+
+#callablehorses:callablehorses
+- minecraft:horse
+- minecraft:donkey
+- minecraft:llama
+- minecraft:mule
+- minecraft:zombie_horse
+- minecraft:skeleton_horse
+
+#endergetic:not_balloon_attachable
+- endergetic:boof_block
+- endergetic:poise_cluster
+- endergetic:puff_bug
+- endergetic:booflo
+- endergetic:booflo_adolescent
+- endergetic:booflo_baby
+- minecraft:shulker
+- minecraft:horse
+- minecraft:armor_stand
+- minecraft:phantom
+- minecraft:ghast
+- minecraft:wither
+- minecraft:ender_dragon
+
+#carryon:stacking_whitelist
+
+#tconstruct:rare_mobs
+- minecraft:wither
+- minecraft:ender_dragon
+- minecraft:elder_guardian
+- minecraft:evoker
+- minecraft:player
+
+#carryon:stacking_blacklist
+
+#undergarden:rotspawn
+- undergarden:rotling
+- undergarden:rotwalker
+- undergarden:rotbeast
+
+#tconstruct:melting/show_in_default
+- minecraft:iron_golem
+- minecraft:snow_golem
+- minecraft:villager
+- minecraft:player
+
+#friendlyfire:general_protection
+
+#seeker_compass:summonables
+- endergetic:booflo
+
+#tconstruct:piggybackpack_blacklist
+
+#farmersdelight:horse_feed_users
+- minecraft:horse
+- minecraft:skeleton_horse
+- minecraft:zombie_horse
+- minecraft:donkey
+- minecraft:mule
+- minecraft:llama
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+
+#tconstruct:melting/hide_in_default
+- minecraft:giant
+
+#farmersdelight:dog_food_users
+- minecraft:wolf
+
+#carryon:entity_whitelist
+
+#forge:slimes
+- minecraft:slime
+- tconstruct:earth_slime
+- tconstruct:sky_slime
+- tconstruct:ender_slime
+- tconstruct:terracube
+
+#endergetic:boof_block_resistant
+- endergetic:boof_block
+- endergetic:poise_cluster
+- endergetic:bolloom_fruit
+- endergetic:bolloom_balloon
+- minecraft:shulker
+- minecraft:painting
+- minecraft:vex
+- minecraft:item_frame
+- quark:glass_frame?
+- quark:colored_frame?
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- undergarden:blisterbomb
+- undergarden:rotten_blisterberry
+- undergarden:goo_ball
+- undergarden:slingshot_ammo
+- undergarden:minion_projectile
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+
+#seadwellers:merms
+- seadwellers:mermorph_wild_orange
+- seadwellers:mermorph_wild_red
+- seadwellers:mermorph_wild_yellow
+- seadwellers:mermorph
+- seadwellers:mermorph_farmer
+- seadwellers:mermorph_poseidon
+- seadwellers:mermorph_polar
+- seadwellers:mermorph_old
+- seadwellers:mermorph_wild_polar
+
+#forge:creepers
+- minecraft:creeper
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+
+#carryon:entity_blacklist
+
+#tconstruct:bacon_producer
+- minecraft:pig
+- minecraft:piglin
+- minecraft:hoglin
+
+#undergarden:cavern_creature
+- undergarden:nargoyle
+- undergarden:scintling
+- undergarden:muncher
+- undergarden:sploogie

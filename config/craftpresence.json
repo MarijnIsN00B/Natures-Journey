@@ -77,6 +77,15 @@
       "guiData": {
         "default": {
           "textOverride": "In {screen.name}"
+        },
+        "GuiReplayOverlay": {
+          "textOverride": "{player.name} is editing a replay"
+        },
+        "GuiReplayViewer": {
+          "textOverride": "{player.name} is browsing replays"
+        },
+        "GuiVideoRenderer": {
+          "textOverride": "{player.name} is exporting a replay ({replaymod.frames.current}/{replaymod.frames.total} frames)"
         }
       }
     },
@@ -133,10 +142,7 @@
       "endTimestamp": "",
       "buttons": {}
     },
-    "dynamicIcons": {
-      "MarijnIsN00B": "https://mc-heads.net/avatar/1e82226db2f34a9cafcaeb4f910f0287",
-      "localhost": "https://api.mcsrvstat.us/icon/localhost"
-    },
+    "dynamicIcons": {},
     "dynamicVariables": {
       "mods": "{general.mods} Mod(s)",
       "player_info_coordinate": "At {player.position.x}, {player.position.z}",
